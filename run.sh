@@ -1,7 +1,7 @@
 #!/bin/bash
 git status
 
-echo "🤖 What do you want to track using $(git add ...) ⤵️"
+echo "🤖 What do you want to track using 'git add ...' ⤵️"
 read -r files
 git add "$files"
 echo "🤖 Enter Commit Message: ⤵️"
