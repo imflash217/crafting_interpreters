@@ -2,6 +2,7 @@
 git status
 echo "🤖 Enter Commit Message: ⤵️"
 read -r message
+git add :/
 git commit -am "$message"
 git push
 # git remote add origin git@github.com:imflash217/crafting_interpreters.git
